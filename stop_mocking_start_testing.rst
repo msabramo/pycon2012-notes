@@ -40,12 +40,15 @@ I mentioned `"Working Effectively with Legacy Code" by Michael Feathers
 <http://amzn.to/AyKH75>`_ for a guy who asked about adding tests to untested
 code.
 
-I asked the speakers about "Tell, Don't Ask" and they were not familiar with
+I asked the speakers about `"Tell, Don't Ask"
+<http://pragprog.com/articles/tell-dont-ask>`_ and they were not familiar with
 it, so I don't think it's something that they adhere strongly to.
 
 An interesting point someone made is that it is nice to be able to check that
-mocks adhere to interfaces, e.g..: using ABCs or zope.interface. This could
-probably be generalized to languages like PHP. For example, this might be an
+mocks adhere to interfaces, e.g..: using `ABCs
+<http://docs.python.org/library/abc.html>`_ or `zope.interface
+<http://docs.zope.org/zope.interface/>`_. This could probably be generalized to
+languages like PHP. For example, this might be an
 argument in favor of using formal interfaces over duck typing.
 
 Mocks vs. fakes - they treat mocks as a last resort - they don't write mocks
