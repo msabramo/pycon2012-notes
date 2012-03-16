@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    stop_mocking_start_testing.rst
+   fast_tests_slow_tests.rst
 
 
 Indices and tables
