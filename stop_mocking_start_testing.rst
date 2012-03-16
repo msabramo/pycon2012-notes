@@ -27,9 +27,10 @@ stubs, mocks, etc. useful.
 They don't really use declarative/fluent mocks that check that they're being
 called the right # of times, etc. It sounds like they have formal mock classes.
 
-They used to have *optional* injected dependencies -- i.e. if you didn't provide
-an argument with the dependency it would choose one automatically (either
-hard-coded or use something from a command-line option, config file, etc.)
+They used to have *optional* injected dependencies -- i.e. if you didn't
+provide an argument with the dependency it would choose one automatically
+(either hard-coded or use something from a command-line option, config file,
+etc.)
 
 Separate state (storage) from behavior -- i.e.: if a method has a part that
 touches object attributes and a part that doesn't; factor out the parts that
@@ -46,5 +47,6 @@ mocks adhere to interfaces, e.g..: using ABCs or zope.interface. This could
 probably be generalized to languages like PHP. For example, this might be an
 argument in favor of using formal interfaces over duck typing.
 
-Mocks vs. fakes - they treat mocks as a last resort - they don't write mocks for their own classes.
+Mocks vs. fakes - they treat mocks as a last resort - they don't write mocks
+for their own classes.
 
