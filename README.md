@@ -1,6 +1,6 @@
-PyCon 2012 notes
+# PyCon 2012 notes
 
-from [Marc Abramowitz](http://marc-abramowitz.com/)
+## from [Marc Abramowitz](http://marc-abramowitz.com/)
 
 These are some notes that I took at [PyCon
 2012](https://us.pycon.org/2012/).
