@@ -36,8 +36,9 @@ Separate state (storage) from behavior -- i.e.: if a method has a part that
 touches object attributes and a part that doesn't; factor out the parts that
 don't touch the attributes into a separate "free function".
 
-I mentioned "Maintaining Legacy Code" by Michael Feathers for a guy who asked
-about adding tests to untested code.
+I mentioned `"Working Effectively with Legacy Code" by Michael Feathers
+<http://amzn.to/AyKH75>`_ for a guy who asked about adding tests to untested
+code.
 
 I asked the speakers about "Tell, Don't Ask" and they were not familiar with
 it, so I don't think it's something that they adhere strongly to.
