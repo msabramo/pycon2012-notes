@@ -6,7 +6,7 @@ Django Templating: More Than Just Blocks
 <https://us.pycon.org/2012/speaker/profile/70/>`_ (http://www.xtine.net/)
 (`@plaidxtine <https://twitter.com/#!/plaidxtine>`_)
 
-**PyCon 2012 presentation page**: https://us.pycon.org/2012/schedule/presentation/288/
+**PyCon 2012 presentation page**: https://us.pycon.org/2012/schedule/presentation/80/
 
 **Slides**: http://speakerdeck.com/u/xtine/p/django-templating-more-than-just-blocks
 
