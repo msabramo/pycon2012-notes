@@ -13,6 +13,7 @@ Contents:
 
    stop_mocking_start_testing.rst
    fast_tests_slow_tests.rst
+   speedily_practical_large_scale_tests.rst
 
 
 Indices and tables
