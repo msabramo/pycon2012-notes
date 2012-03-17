@@ -80,14 +80,18 @@ Imperative vs. declarative
 * `Mock <http://www.voidspace.org.uk/python/mock/>`_ - Imperative
 * `Fudge <http://farmdev.com/projects/fudge/>`_ - Declarative
 
-The `Mock <http://www.voidspace.org.uk/python/mock/>`_ Library::
+The `Mock <http://www.voidspace.org.uk/python/mock/>`_ Library:
+
+.. code-block:: python
 
     from mock import patch
 
     with patch.object(APIVoterManager, '_raw_voters') as voters:
         ....
 
-The `Fudge <http://farmdev.com/projects/fudge/>`_ Library::
+The `Fudge <http://farmdev.com/projects/fudge/>`_ Library:
+
+.. code-block:: python
 
     @fudge.patch('sphinxapi.SphinxClient')
     def test_single_filter(sphinx_client):
@@ -103,7 +107,9 @@ Horrible dots - doesn't tell you anything
 Hate tracebacks - too much noise
 
 Erik Rose put together an alternative nose test runner called `nose-progressive
-<http://pypi.python.org/pypi/nose-progressive/>`_::
+<http://pypi.python.org/pypi/nose-progressive/>`_:
+
+.. code-block:: bash
 
     % nosetests --with-progressive
 
@@ -116,7 +122,9 @@ If you just want the improved tracebacks, check out `tracefront
 of the traceback stuff from `nose-progressive
 <http://pypi.python.org/pypi/nose-progressive/>`_.
 
-How to install testing goodness::
+How to install testing goodness:
+
+.. code-block:: bash
 
     pip install nose-progressive
     pip install django-nose
