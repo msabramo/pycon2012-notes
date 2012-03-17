@@ -2,12 +2,17 @@
 Stop Mocking, Start Testing
 ***************************************************************************
 
-by `Augie Fackler <https://us.pycon.org/2012/speaker/profile/219/>`_
-and
-`Nathaniel Manista <https://us.pycon.org/2012/speaker/profile/295/>`_
-of `Google Code <http://code.google.com/>`_
+**Presenters**: `Augie Fackler
+<https://us.pycon.org/2012/speaker/profile/219/>`_ and `Nathaniel Manista
+<https://us.pycon.org/2012/speaker/profile/295/>`_ of `Google Code
+<http://code.google.com/>`_
 
-* `PyCon 2012 presentation page <https://us.pycon.org/2012/schedule/presentation/315/>`_
+**PyCon 2012 presentation page**: https://us.pycon.org/2012/schedule/presentation/315/
+
+**Slides**: ???
+
+**Video**: http://pyvideo.org/video/629/stop-mocking-start-testing
+
 
 Mocks should be:
 
