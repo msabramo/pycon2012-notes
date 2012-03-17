@@ -14,6 +14,7 @@ Contents:
    stop_mocking_start_testing.rst
    fast_tests_slow_tests.rst
    speedily_practical_large_scale_tests.rst
+   throwing_together_distributed_services_with_gevent.rst
 
 
 Indices and tables
