@@ -2,10 +2,15 @@
 Throwing Together Distributed Services With Gevent
 ***************************************************************************
 
-by `Jeff Lindsay <https://us.pycon.org/2012/speaker/profile/238/>`_ of `Twilio
-<http://www.twilio.com/>`_
+**Presenter**: `Jeff Lindsay
+<https://us.pycon.org/2012/speaker/profile/238/>`_ (http://progrium.com/)
+(`@progrium <https://twitter.com/#!/progrium>`_)
 
-* `PyCon 2012 presentation page <https://us.pycon.org/2012/schedule/presentation/288/>`_
+**PyCon 2012 presentation page**: https://us.pycon.org/2012/schedule/presentation/288/
+
+**Tutorial**: https://github.com/progrium/ginkgotutorial
+
+**Video**: http://pyvideo.org/video/642/throwing-together-distributed-services-with-geven
 
 **Track:** V
 
