@@ -15,6 +15,7 @@ Contents:
    fast_tests_slow_tests.rst
    speedily_practical_large_scale_tests.rst
    throwing_together_distributed_services_with_gevent.rst
+   django_templating.rst
 
 
 Indices and tables
