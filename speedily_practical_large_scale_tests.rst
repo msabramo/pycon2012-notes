@@ -102,7 +102,7 @@ The `Fudge <http://farmdev.com/projects/fudge/>`_ Library:
             .expects('SetFilter')....
         ....
 
-Horrible dots - doesn't tell you anything
+Horrible dots - They don't tell you anything
 
 Hate tracebacks - too much noise
 
