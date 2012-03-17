@@ -2,11 +2,16 @@
 Speedily Practical Large-Scale Tests
 ***************************************************************************
 
-by `Erik Rose <https://us.pycon.org/2012/speaker/profile/390/>`_, formerly at
-`Mozilla <http://www.mozilla.org/>`_, now at `Votizen
-<https://www.votizen.com/>`_
+**Presenter**: `Erik Rose
+<https://us.pycon.org/2012/speaker/profile/390/>`_ (https://github.com/erikrose)
+(`@ErikRose <https://twitter.com/#!/erikrose>`_)
 
-* `PyCon 2012 presentation page <https://us.pycon.org/2012/schedule/presentation/473/>`_
+**PyCon 2012 presentation page**: https://us.pycon.org/2012/schedule/presentation/473/
+
+**Slides** (Keynote): https://github.com/downloads/erikrose/presentations/Speedily%20Practical%20Large-Scale%20Tests.key
+
+**Video**: http://pyvideo.org/video/634/speedily-practical-large-scale-tests
+
 
 `iStat menus for the Mac <http://bjango.com/mac/istatmenus/>`_ so you know your
 baseline memory usage, disk activity, etc.
