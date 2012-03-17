@@ -2,9 +2,16 @@
 Fast tests, slow tests
 ***************************************************************************
 
-by `Gary Bernhart <https://us.pycon.org/2012/speaker/profile/366/>`_
+**Presenter**: `Gary Bernhardt
+<https://us.pycon.org/2012/speaker/profile/366/>`_ (http://blog.extracheese.org/ / https://www.destroyallsoftware.com/)
+(`@garybernhardt <http://twitter.com/garybernhardt>`_)
 
-* `PyCon 2012 presentation page <https://us.pycon.org/2012/schedule/presentation/429/>`_
+**PyCon 2012 presentation page**: https://us.pycon.org/2012/schedule/presentation/429/
+
+**Slides**: ???
+
+**Video**: http://pyvideo.org/video/631/fast-test-slow-test
+
 
 Writing tests from the bottom up is often easier::
 
