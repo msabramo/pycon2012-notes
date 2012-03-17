@@ -13,7 +13,9 @@ Fast tests, slow tests
 **Video**: http://pyvideo.org/video/631/fast-test-slow-test
 
 
-Writing tests from the bottom up is often easier::
+Writing tests from the bottom up is often easier
+
+.. code-block:: python
 
     def test_that_spam_posts_are_hidden(self):
         assert 'Spammy!" not in resp.content
