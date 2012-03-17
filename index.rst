@@ -16,6 +16,7 @@ Contents:
    speedily_practical_large_scale_tests.rst
    throwing_together_distributed_services_with_gevent.rst
    django_templating.rst
+   django_form_processing_deep_dive.rst
 
 
 Indices and tables
