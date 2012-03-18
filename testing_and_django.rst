@@ -83,11 +83,12 @@ What's wrong here?
   haven't started writing code!
 
 * 2 failures in Django 1.4 RC - Those are due to a bug in Django that two
-  tests in ``django.contrib.auth`` are insufficiently isolated from the project
+  tests in :mod:`django.contrib.auth` are insufficiently isolated from the project
   settings. They assume the existence of two databases configured in the
   settings.
 
-Note from Marc on 2012-03-17: I just downloaded Django-1.4c2 and tried to
+Note from Marc on 2012-03-17: I just downloaded `Django-1.4c2
+<http://www.djangoproject.com/download/1.4-rc-2/tarball/>`_ and tried to
 reproduce the 2 failures, but I couldn't. So it looks like this issue was
 fixed.
 
@@ -103,12 +104,12 @@ For third-party apps, the only times I care about their tests is when I decide
 to use them or upgrade them. In between those times, I don't care and running
 their tests is a waste of time.
 
-Some might argue that we need integration tests to verify that projects integrate
-properly with things like ``django.contrib.auth``, but any tests written in
-``django.contrib.auth`` that are not isolated are likely to fail, because there
-are so many ways to integrate. And an isolated test is probably just purely
-testing ``django.contrib.auth`` and projects shouldn't have to care about that.
-In other words...
+Some might argue that we need integration tests to verify that projects
+integrate properly with things like :mod:`django.contrib.auth`, but any tests
+written in :mod:`django.contrib.auth` that are not isolated are likely to fail,
+because there are so many ways to integrate. And an isolated test is probably
+just purely testing :mod:`django.contrib.auth` and projects shouldn't have to
+care about that.  In other words...
 
 * Non-isolated tests break.
 * Isolated tests are pointless to run.
@@ -144,7 +145,9 @@ app.
 
 If you split your tests into a bunch of separate modules (which you probably
 should if you're writing as many tests as you should), you have to import your
-submodules so Django's test runner can find it. This is 2012. That's ridiculous.
+submodules so :ref:`Django's test runner
+<topics-testing-test_runner>` can find it. This is 2012. That's
+ridiculous.
 
 Django's test discovery
 -----------------------
@@ -160,7 +163,10 @@ It's easy to change.
 
 (06:50 / 47:15 into the video)
 
-* unittest2 discovery (You could also use nose, py.test, etc...)
+* :ref:`unittest2 test discovery <unittest-test-discovery>` (You could also use
+  `nose <http://readthedocs.org/docs/nose/>`_, `py.test <http://pytest.org/>`_,
+  etc...)
+
 * ``TEST_RUNNER`` setting
 
 This is how much code it takes to make Django's test discovery good:
@@ -186,7 +192,7 @@ This is how much code it takes to make Django's test discovery good:
 
             return reorder_suite(suite, (TestCase,))
 
-settings.py:
+:file:`settings.py`:
 
 .. code-block:: python
 

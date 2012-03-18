@@ -28,8 +28,11 @@ import sys, os
 extensions = ['sphinx.ext.intersphinx']
 
 intersphinx_mapping = {
-    'python': ('http://docs.python.org/2.7', None),
-    'django': 'http://docs.djangoproject.com/en/dev/_objects/',
+    'python': ('http://python.readthedocs.org/en/latest/', None),
+    'django': ('http://django.readthedocs.org/en/latest/', None),
+    'sphinx': ('http://sphinx.readthedocs.org/en/latest/', None),
+    # 'python': ('http://docs.python.org/2.7', None),
+    # 'http://docs.djangoproject.com/en/dev': 'http://docs.djangoproject.com/en/dev/_objects',
 }
 
 # Add any paths that contain templates here, relative to this directory.
