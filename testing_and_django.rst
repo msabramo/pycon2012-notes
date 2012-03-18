@@ -903,9 +903,9 @@ paraphrased and summarized.
 
 Question: Any comments on the various Django nose modules that are around?
 
-Carl: has used :py:mod:`django-nose` and is pretty happy with
-:py:mod:`unittest2` test discovery. Django's ``TEST_RUNNER`` setting makes it
-pretty easy to swap in whatever test runner you like.
+Carl: has used :py:mod:`django-nose` and is pretty happy with :ref:`unittest2
+test discovery <unittest-test-discovery>`. Django's ``TEST_RUNNER`` setting
+makes it pretty easy to swap in whatever test runner you like.
 
 Question: Ever felt like you need to test the formset implementation?
 
