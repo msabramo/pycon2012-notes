@@ -17,6 +17,7 @@ Contents:
    throwing_together_distributed_services_with_gevent.rst
    django_templating.rst
    django_form_processing_deep_dive.rst
+   testing_and_django.rst
 
 
 Indices and tables
