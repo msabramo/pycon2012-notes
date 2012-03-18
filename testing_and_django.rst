@@ -917,7 +917,7 @@ Question: More something that involves interaction between the formset and the v
 
 Question: Thank you for your work on pip and virtualenv. I try not to repeat
 myself and create reusable apps. Any advice on how to test reusable apps,
-especially if I tend to put them on PyPI?
+especially if I intend to put them on `PyPI <http://pypi.python.org/pypi>`_?
 
 Carl: Don't make the mistake of putting the tests for your app in a
 :file:`tests.py`, because then other people who use your app will be forced to
