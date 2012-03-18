@@ -10,7 +10,7 @@ Speedily Practical Large-Scale Tests
 
 **Slides** (Keynote): https://github.com/downloads/erikrose/presentations/Speedily%20Practical%20Large-Scale%20Tests.key
 
-**Slides** (HTML): http://msabramo.github.com/presentations/erik-rose/Speedily%20Practical%20Large-Scale%20Tests.html.d/Speedily%20Practical%20Large-Scale%20Tests.html
+**Slides** (HTML): http://erikrose.github.com/presentations/speedily-practical-large-scale-tests/
 
 **Video**: http://pyvideo.org/video/634/speedily-practical-large-scale-tests
 
