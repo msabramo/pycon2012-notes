@@ -18,6 +18,7 @@ Contents:
    django_templating.rst
    django_form_processing_deep_dive.rst
    testing_and_django.rst
+   restful_apis_with_tastypie.rst
 
 
 Indices and tables
