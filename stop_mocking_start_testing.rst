@@ -9,7 +9,7 @@ Stop Mocking, Start Testing
 
 **PyCon 2012 presentation page**: https://us.pycon.org/2012/schedule/presentation/315/
 
-**Slides**: ???
+**Slides**: https://code.google.com/a/google.com/p/stop-mocking-start-testing/
 
 **Video**: http://pyvideo.org/video/629/stop-mocking-start-testing
 
