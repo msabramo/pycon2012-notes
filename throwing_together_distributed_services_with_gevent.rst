@@ -10,6 +10,8 @@ Throwing Together Distributed Services With Gevent
 
 **Tutorial**: https://github.com/progrium/ginkgotutorial
 
+**Slides**: http://dl.dropbox.com/u/2096290/GinkgoPyCon.pdf
+
 **Video**: http://pyvideo.org/video/642/throwing-together-distributed-services-with-geven
 
 **Track:** V
