@@ -561,8 +561,10 @@ easy. Carl doesn't like to see view functions longer than 10-12 lines.
 Views are hard to write unit tests for, because they are where everything else
 comes together and they are coupled to a lot of stuff.
 
-One solution is to put less stuff in views since they're hard to test. Maybe
-don't even bother unit testing views if most code is covered.
+One solution is to put less stuff in views since they're hard to test.
+
+You might also consider testing views with functional tests rather than unit
+tests.
 
 
 If you unit test views
