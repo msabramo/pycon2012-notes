@@ -205,7 +205,7 @@ This is how much code it takes to make Django's test discovery good:
     TEST_DISCOVERY_ROOT = os.path.join(BASE_PATH, "tests")
     TEST_RUNNER = "tests.runner.DiscoveryRunner"
 
-(There's an `updated version<https://gist.github.com/1450104>`_ of this test runner.)
+(There's an `updated version <https://gist.github.com/1450104>`_ of this test runner.)
 
 \\o/
 ----
