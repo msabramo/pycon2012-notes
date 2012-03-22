@@ -28,10 +28,22 @@ Why did we build an RPC system?
 
 (00:22 / 36:22 into the video)
 
+* `dotCloud`_ is a `PaaS <http://en.wikipedia.org/wiki/Platform_as_a_service>`_.
+
+  - We deploy, monitor, and scale your apps (in the cloud!)
+
+* Many moving parts
+
+* ... On a large distributed cluster
+
+
 What the architecture looks like
 --------------------------------
 
 (00:45 / 36:22 into the video)
+
+.. image:: http://cl.ly/3k1X1O3I1i3r2P292h2f/Screen%20shot%202012-03-21%20at%2011.21.29%20PM.png
+
 
 Easy Requirements
 -----------------
