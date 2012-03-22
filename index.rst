@@ -19,6 +19,7 @@ Contents:
    django_form_processing_deep_dive.rst
    testing_and_django.rst
    restful_apis_with_tastypie.rst
+   dotcloud_zerorpc.rst
 
 
 Indices and tables
