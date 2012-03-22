@@ -176,7 +176,7 @@ This is how much code it takes to make Django's test discovery good:
     class DiscoveryRunner(DjangoTestSuiteRunner):
         """A test suite runner using unittest2 discovery."""
 
-        def build_suite(self, test_labels, **kwargs):
+        def build_suite(self, test_labels, extra_tests=None, **kwargs):
             suite = None
             discovery_root = settings.TEST_DISCOVERY_ROOT
 
@@ -190,6 +190,10 @@ This is how much code it takes to make Django's test discovery good:
                     top_level_dir=settings.BASE_PATH,
                     )
 
+            if extra_tests:
+                for test in extra_tests:
+                    suite.addTest(test)
+
             return reorder_suite(suite, (TestCase,))
 
 :file:`settings.py`:
@@ -200,6 +204,8 @@ This is how much code it takes to make Django's test discovery good:
     BASE_PATH = os.path.dirname(os.path.dirname(__file__))
     TEST_DISCOVERY_ROOT = os.path.join(BASE_PATH, "tests")
     TEST_RUNNER = "tests.runner.DiscoveryRunner"
+
+(There's an `updated version<https://gist.github.com/1450104>`_ of this test runner.)
 
 \\o/
 ----
