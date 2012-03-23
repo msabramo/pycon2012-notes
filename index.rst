@@ -20,6 +20,7 @@ Contents:
    testing_and_django.rst
    restful_apis_with_tastypie.rst
    dotcloud_zerorpc.rst
+   python_linkers_and_virtual_memory.rst
 
 
 Indices and tables
