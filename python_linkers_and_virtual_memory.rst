@@ -64,7 +64,7 @@ and **page 3** would include all addresses in the **3xx** range.
     │  •  │
     │ 302 │
     │ 301 │
-   └─300─┘
+    └─300─┘
       299
        •
 
