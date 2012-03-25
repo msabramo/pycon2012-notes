@@ -1567,7 +1567,7 @@ Resources
 ---------
 
 * A great free resource is `Ulrich Drepper's DSO How To (a.k.a.:
-  "http://www.akkadia.org/drepper/dsohowto.pdf")
+  "How To Write Shared Libraries")
   <http://www.akkadia.org/drepper/dsohowto.pdf>`_.
 
 * `An awesomely detailed blog post on Position-Independent Code (PIC) by Eli
