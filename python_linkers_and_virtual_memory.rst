@@ -18,7 +18,7 @@ Python, Linkers, and Virtual Memory by Brandon Rhodes
 Imagine a computer with 1,000 bytes of addressable RAM...
 =========================================================
 
-(00:19 / 36:22 into the video)
+`(00:19 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=0m19s>`_
 
 * numbered 0 through 999, each storing a byte
 
@@ -42,7 +42,7 @@ Pages
 
 We split memory into **pages** by grouping addresses that share a common prefix
 
-(00:29 / 36:22 into the video)
+`(00:29 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=0m29s>`_
 
 If we defined our
 
@@ -72,7 +72,7 @@ and **page 3** would include all addresses in the **3xx** range.
 Page tables
 -----------
 
-(00:49 / 36:22 into the video)
+`(00:50 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=0m50s>`_
 
 What is a page table?
 
@@ -128,7 +128,7 @@ The actual addresses delivered to RAM are called **physical**.
 Page Faults
 -----------
 
-(01:46 / 36:22 into the video)
+`(01:46 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=1m56s>`_
 
 Your program is paused and the OS regains control.
 
@@ -142,7 +142,7 @@ We will see that the OS has several options about how to respond.
 Q: What is stored in the bytes of memory pages?
 -----------------------------------------------
 
-(01:55 / 36:22 into the video)
+`(01:56 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=1m56s>`_
 
 A: Everything your program needs
 
@@ -150,9 +150,11 @@ A: Everything your program needs
 * Stack - variables
 * Heap - data structures
 
-(02:10) These resources tend to **load gradually** as your program runs.
+`(02:10) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=2m10s>`_ These
+resources tend to **load gradually** as your program runs.
 
-(02:16) Imagine running your editor...
+`(02:16) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=2m16s>`_ Imagine
+running your editor...
 
 Which I will not name to avoid obvious religious wars... :-)
 
@@ -175,10 +177,10 @@ So the OS loads it into memory along with any libraries it requires.
     │ 0--  →  35-- │ editor “binary” (program)
     └──────────────┘
 
-(02:32) The editor's :func:`main()` function starts calling other functions.
+The editor's :func:`main()` function starts calling other functions.
 
-(02:36) So the OS automatically starts allocating new stack pages as that call
-graph grows.
+`(02:36) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=2m36s>`_ So the OS
+automatically starts allocating new stack pages as that call graph grows.
 
 The stack usually starts at a high address and grows downward.
 
@@ -200,8 +202,8 @@ The stack usually starts at a high address and grows downward.
 Notice the fairly random physical addresses that can come from anywhere in RAM,
 because the association is a free one.
 
-(02:57) Then the editor needs space for data structures like lists and
-dictionaries.
+`(02:57) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=2m57s>`_ Then the
+editor needs space for data structures like lists and dictionaries.
 
 These go in another growing memory area called the **heap**.
 
@@ -227,7 +229,7 @@ Which instead of holding variables that go away when your function returns
 Page Table benefits
 -------------------
 
-(03:22 / 36:22 into the video)
+`(03:22 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=3m22s>`_
 
 What are the benefits of this level of indirection?
 
@@ -250,7 +252,7 @@ What are the benefits of this level of indirection?
 Protection
 ----------
 
-(04:22 / 36:22 into the video)
+`(04:22 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=4m22s>`_
 
 Real page tables include **read** and **write** bits.
 
@@ -279,7 +281,7 @@ executables and libraries.
 Segmentation Faults
 -------------------
 
-(04:54 / 36:22 into the video)
+`(04:54 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=4m54s>`_
 
 For an illegal read or write...
 
@@ -336,7 +338,7 @@ causes a **segmentation fault** because we're trying to write to a read-only pag
 Sharing
 -------
 
-(05:28 / 36:22 into the video)
+`(05:28 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=5m28s>`_
 
 Read-only pages give the OS a new superpower: **Sharing**!
 
@@ -390,7 +392,7 @@ then it looks like it's your own personal copy.
 Memory consumed doesn't add up
 ------------------------------
 
-(06:32 / 36:22 into the video)
+`(06:32 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=6m32s>`_
 
 This means that the total memory consumed by process A and process B is
 **rarely** the sum
@@ -419,7 +421,7 @@ Because as we will see, memory usage is *complicated*.
 Problem: Python code
 ====================
 
-(07:37 / 36:22 into the video)
+`(07:37 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=7m37s>`_
 
 We hit a problem with this idea of sharing binary code.
 
@@ -543,7 +545,7 @@ To the OS pages that get written in the middle of a process running look like
 Q: Why not share code objects? A: reference counts
 --------------------------------------------------
 
-(09:12 / 36:22 into the video)
+`(09:12 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=9m12s>`_
 
 Standard CPython does not support read-only code objects because it constantly
 fiddles around with their **reference counts**.
@@ -565,7 +567,7 @@ What does this code do?
 To prevent other threads from de-allocating and overwriting :func:`f()` while
 this thread is busy running it
 
-(10:13 / 36:22 into the video)
+`(10:13 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=10m13s>`_
 
 .. note::
 
@@ -580,7 +582,7 @@ this thread is busy running it
 Dynamic Linking
 ===============
 
-(10:22 / 36:22 into the video)
+`(10:22 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=10m22s>`_
 
 How does the Python interpreter find the routines it needs in :file:`libc.so`?
 
@@ -645,7 +647,7 @@ Linking returns an error if a name needed cannot be found
 :program:`ar` archives
 ----------------------
 
-(12:32 / 36:22 into the video)
+`(12:32 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=12m32s>`_
 
 The :program:`ar` tool bundles together related ``.o`` files into ``.a``
 archives.
@@ -682,7 +684,7 @@ Shared libraries
 
 **Problem:**
 
-(13:43 / 36:22 into the video)
+`(13:43 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=13m43s>`_
 
 If everyone lets the linker copy :file:`printf.o` into their program,
 then memory has to hold many separate copies of each popular library
@@ -705,7 +707,8 @@ table of every program that needs them
 The last-minute linking that takes place at runtime to connect python to
 :file:`libc.so` is called **Dynamic Linking**
 
-You can see the libraries that a program like python needs with :program:`ldd`:
+`(15:09) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=15m09s>`_ You can see
+the libraries that a program like python needs with :program:`ldd`:
 
 .. code-block:: bash
 
@@ -737,7 +740,8 @@ You can see the libraries that a program like python needs with :program:`ldd`:
         `otool <http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/otool.1.html>`_
             Apple's documentation for the :program:`otool` program.
 
-You can see the specific names it needs with :program:`nm` (“names”)
+`(15:17) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=15m09s>`_ You can see
+the specific names it needs with :program:`nm` (“names”)
 
 .. code-block:: bash
 
@@ -793,6 +797,8 @@ The :mod:`lxml.etree` Python module is famous for this:
 
 Shared library problems
 -----------------------
+
+`(15:43) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=15m43s>`_
 
 Shared library: :file:`libtiny.so`
 
@@ -893,7 +899,7 @@ So the module :file:`tinymodule.so` needs the library :file:`libtiny.so`
 Demand Paging
 =============
 
-(18:00 / 36:22 into the video)
+`(18:00 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=18m00s>`_
 
 The OS does not load pages from disk until your program reads or writes from
 them
@@ -964,7 +970,7 @@ So pages are loaded from disk **lazily**
 
 Heap allocation works the **same way**
 
-(18:50 / 36:22 into the video)
+`(18:50 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=18m50s>`_
 
 **Q: How many RAM pages are allocated if you ask the OS for three new memory pages?**
 
@@ -994,7 +1000,7 @@ not raising a Segmentation Fault
 But no pages are actually allocated until a **read** or **write** shows they
 are *needed*
 
-(19:19 / 36:22 into the video)
+`(19:19 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=19m19s>`_
 
 **That is the difference**
 
@@ -1073,9 +1079,18 @@ Look at RES when you wonder where all of your RAM is going
 :file:`/proc/<pid>/smaps`
 -------------------------
 
-(20:19 / 36:22 into the video)
+`(20:19 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=20m19s>`_
 
 Linux file; shows whether physical RAM pages have been allocated to a segment
+
+.. note::
+
+    (from Marc) On Linux systems, there is a nice tool called :program:`pmap` that shows similar information in a nice format.
+
+    .. seealso::
+
+        `pmap(1) <http://linux.die.net/man/1/pmap>`_
+            Man page for the :program:`pmap` program.
 
 .. note::
 
@@ -1109,6 +1124,8 @@ Here are some segments of a new python process sitting quietly at its prompt
     Rss:                 104 kB
 
 **Demand Paging: Example**
+
+`(20:45) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=20m45s>`_
 
 Calling a Python function that was not called as Python started up
 
@@ -1180,7 +1197,7 @@ The process will slow down as de-allocated pages are re-loaded
 Forking
 =======
 
-(22:35 / 36:22 into the video)
+`(22:37 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=22m37s>`_
 
 On primitive operating systems the only way to create a new process is to start
 a whole new program
@@ -1271,7 +1288,7 @@ As writes cause page faults the OS makes copies.  Here page **63** is copied to
       │ 0--  →  35-- r │   python   │ 0--  →  (same) │
       └────────────────┘            └────────────────┘
 
-(24:17 / 36:22 into the video)
+`(24:18 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=24m18s>`_
 
 Q: How well does this *usually* work?
 
@@ -1375,7 +1392,7 @@ PyPy 2.8
 
 At finish: **96.1%** of heap shared
 
-(26:01 / 36:22 into the video)
+`(26:03 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=26m03s>`_
 
 **Lesson:**
 
@@ -1393,7 +1410,7 @@ Forked worker processes in Unix *share* memory when the parent process builds
 Explicitly Sharing Memory
 =========================
 
-(26:14 / 36:22 into the video)
+`(26:14 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=26m14s>`_
 
 How can two Python procedures share *writeable* memory to collaborate?
 
@@ -1404,7 +1421,7 @@ How can two Python procedures share *writeable* memory to collaborate?
 Threads
 -------
 
-(26:37 / 36:22 into the video)
+`(26:48 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=26m48s>`_
 
 Creating a thread is like :func:`fork()` except that the heap *remains shared*
 between the two threads of control
@@ -1448,7 +1465,7 @@ Since threads share *every* data structure they have to be *very* careful
 Memory maps
 -----------
 
-(27:19 / 36:22 into the video)
+`(27:19 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=27m19s>`_
 
 Using :func:`mmap()` a parent process can create shared memory that will be
 inherited by all the child workers it forks
@@ -1522,7 +1539,7 @@ simply access it like an array!
 Summary
 =======
 
-(28:40 / 36:22 into the video)
+`(28:42 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=28m42s>`_
 
 Your processes all access memory through the mediation of a *page table*
 
@@ -1539,13 +1556,13 @@ And
 *PyPy* lacks reference counts which lets the OS *do its magic* and *conserve
 resources*
 
-(29:16 / 36:22 into the video)
+`(29:16 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=29m16s>`_
 
 
 Questions
 =========
 
-(29:35 / 36:22 into the video)
+`(29:35 / 36:22 into the video) <https://www.youtube.com/watch?v=twQKAoq2OPE#t=29m35s>`_
 
 Just one question
 
