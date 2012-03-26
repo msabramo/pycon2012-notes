@@ -14,6 +14,102 @@ Stop Mocking, Start Testing
 **Video**: http://pyvideo.org/video/629/stop-mocking-start-testing
 
 
+**Lessons**
+
+* Users are not a test infrastructure.
+* Coded tests with greater human costs than CPU costs are also not a test infrastructure.
+* A project simply cannot grow this way.
+
+.. code-block:: python
+
+    class Real(object):
+        def EnLolCat(self, phrases, words=None, kitteh=None):
+            # ...
+
+    class Fake1(object):
+        def EnLolCat(self, phrases, words):
+            # ...
+
+    class Fake2(object):
+        def EnLolCat(self, phrases):
+            # ...
+
+"Mock objects tell you what you want to hear."
+
+Tests run only against mock objects
+
+Python doesn't check that a mock is true to what it is mocking
+
+Developers don't either!
+
+
+**Lessons**
+
+* Share mocks among test modules.
+* When choosing between zero and one mock, try zero!
+
+**If you need a mock, have exactly one well-tested mock.**
+
+**Use full system tests to make up for gaps in unit- level coverage**
+
+**Full system tests are not a replacement for unit-level tests!**
+
+
+Modern Mocking
+--------------
+
+A collection of...
+
+... authoritative...
+
+... narrow...
+
+... isolated...
+
+... fakes.
+
+
+Testing Today
+-------------
+
+Tests are written to the interface, not the implementation
+
+Unit tests are run against both mock and real implementations
+
+System tests are run in continuous integration and quality assurance
+
+
+Design For Love And Testing
+===========================
+
+* Inject object dependencies as required construction parameters.
+* Separate state from behavior
+* Define interfaces between components.
+* Decline to write a test when there's no clear interface.
+
+
+Injected dependencies
+---------------------
+
+.. code-block:: python
+
+    # Not this:
+    class BadView(BaseView):
+        def __init__(self, database=None):
+            if database is None:
+                # This reads a global value set by
+                # a command line flag
+                database = DefaultDatabase()
+            self._database = database
+
+    # This:
+    class GoodView(BaseView):
+        def __init__(self, database):
+            self._database = database
+
+
+
+
 Mocks should be:
 
 * shared
