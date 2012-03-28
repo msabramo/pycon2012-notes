@@ -21,6 +21,7 @@ Contents:
    restful_apis_with_tastypie.rst
    dotcloud_zerorpc.rst
    python_linkers_and_virtual_memory.rst
+   scalability_at_youtube.rst
 
 
 Indices and tables
