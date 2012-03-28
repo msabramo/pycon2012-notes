@@ -1,5 +1,5 @@
 ***************************************************************************
-Scalability at YouTube
+Scalability at YouTube by J.J. Behrens and Mike Solomon of Google
 ***************************************************************************
 
 **Presenters**:  J.J. Behrens and Mike Solomon of Google

@@ -1,6 +1,6 @@
-***************************************************************************
-Throwing Together Distributed Services With Gevent
-***************************************************************************
+***************************************************************************************
+Throwing Together Distributed Services With Gevent (Ginkgo) by Jeff Lindsay from Twilio
+***************************************************************************************
 
 **Presenter**: `Jeff Lindsay
 <https://us.pycon.org/2012/speaker/profile/238/>`_ (http://progrium.com/)

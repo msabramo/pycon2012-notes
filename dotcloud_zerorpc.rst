@@ -1,6 +1,6 @@
-***************************************************************************
-Build reliable, traceable, distributed systems with ZeroMQ
-***************************************************************************
+******************************************************************************************************
+Build reliable, traceable, distributed systems with ZeroMQ (ZeroRPC) by Jérôme Petazzoni from dotCloud
+******************************************************************************************************
 
 **Presenter**: `Jérôme Petazzoni
 <https://us.pycon.org/2012/speaker/profile/261/>`_ (http://www.dotcloud.com/)

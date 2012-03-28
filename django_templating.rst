@@ -1,5 +1,5 @@
 ***************************************************************************
-Django Templating: More Than Just Blocks
+Django Templating: More Than Just Blocks by Christine Cheung
 ***************************************************************************
 
 **Presenter**: `Christine Cheung

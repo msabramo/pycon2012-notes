@@ -1,7 +1,7 @@
 .. _speedily-practical-large-scale-tests:
 
 ***************************************************************************
-Speedily Practical Large-Scale Tests
+Speedily Practical Large-Scale Tests with Erik Rose from Votizen
 ***************************************************************************
 
 **Presenter**: `Erik Rose

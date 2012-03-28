@@ -1,6 +1,6 @@
-***************************************************************************
-Stop Mocking, Start Testing
-***************************************************************************
+***********************************************************************************
+Stop Mocking, Start Testing by Augie Fackler and Nathaniel Manista from Google Code
+***********************************************************************************
 
 **Presenters**: `Augie Fackler
 <https://us.pycon.org/2012/speaker/profile/219/>`_ and `Nathaniel Manista

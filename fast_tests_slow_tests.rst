@@ -1,7 +1,7 @@
 .. _fast-test-slow-test:
 
 ***************************************************************************
-Fast test, slow test
+Fast test, slow test by Gary Bernhardt from destroyallsoftware.com
 ***************************************************************************
 
 **Presenter**: `Gary Bernhardt
