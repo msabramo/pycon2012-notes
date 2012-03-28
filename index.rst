@@ -22,6 +22,7 @@ Contents:
    dotcloud_zerorpc.rst
    python_linkers_and_virtual_memory.rst
    scalability_at_youtube.rst
+   web2py.rst
 
 
 Indices and tables
