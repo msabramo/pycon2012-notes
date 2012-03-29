@@ -23,6 +23,7 @@ Contents:
    python_linkers_and_virtual_memory.rst
    scalability_at_youtube.rst
    web2py.rst
+   ipython.rst
 
 
 Indices and tables
