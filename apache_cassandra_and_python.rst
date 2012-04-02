@@ -14,7 +14,7 @@ Apache Cassandra and Python
 
 
 Why are you here?
-=================
+-----------------
 
 `(00:24) <https://www.youtube.com/watch?v=188mXjwdkak&feature=autoplay&list=PLBC82890EA0228306&lf=plpp_video&playnext=1>`_
 
@@ -24,7 +24,7 @@ Why are you here?
 
 
 What am I going to talk about?
-==============================
+------------------------------
 
 `(00:34) <https://www.youtube.com/watch?v=188mXjwdkak&feature=autoplay&list=PLBC82890EA0228306&lf=plpp_video&playnext=1#t=00m34s>`_
 
