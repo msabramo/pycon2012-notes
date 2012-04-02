@@ -24,6 +24,7 @@ Contents:
    scalability_at_youtube.rst
    web2py.rst
    ipython.rst
+   apache_cassandra_and_python.rst
 
 
 Indices and tables
