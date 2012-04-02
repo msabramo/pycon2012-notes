@@ -6,6 +6,10 @@
 Welcome to Marc's PyCon 2012 Notes's documentation!
 ===================================================
 
+Notes taken by `Marc Abramowitz <http://marc-abramowitz.com/>`_ for `PyCon 2012
+<https://us.pycon.org/2012/>`_.  Available on GitHub at
+http://github.com/msabramo/pycon2012-notes
+
 Contents:
 
 .. toctree::
