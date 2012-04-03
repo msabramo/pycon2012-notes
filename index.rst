@@ -18,6 +18,7 @@ Contents:
    stop_mocking_start_testing.rst
    fast_tests_slow_tests.rst
    speedily_practical_large_scale_tests.rst
+   fake_it_til_you_make_it.rst
    throwing_together_distributed_services_with_gevent.rst
    django_templating.rst
    django_form_processing_deep_dive.rst
