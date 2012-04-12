@@ -49,7 +49,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Marc\'s PyCon 2012 Notes'
-copyright = u'2012, Marc Abramowitz'
+# copyright = u'2012, Marc Abramowitz'
+html_show_copyright = False
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
