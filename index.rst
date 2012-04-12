@@ -30,6 +30,7 @@ Contents:
    web2py.rst
    ipython.rst
    apache_cassandra_and_python.rst
+   practicing_continuous_deployment.rst
 
 
 Indices and tables
